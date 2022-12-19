@@ -13,9 +13,6 @@
 		171A4ED02949FABB005AE833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ECE2949FABB005AE833 /* Main.storyboard */; };
 		171A4ED22949FABE005AE833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ED12949FABE005AE833 /* Assets.xcassets */; };
 		171A4ED52949FABE005AE833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ED32949FABE005AE833 /* LaunchScreen.storyboard */; };
-		171A4EE02949FABE005AE833 /* CurrentWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EDF2949FABE005AE833 /* CurrentWeatherAppTests.swift */; };
-		171A4EEA2949FABE005AE833 /* CurrentWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EE92949FABE005AE833 /* CurrentWeatherAppUITests.swift */; };
-		171A4EEC2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */; };
 		171A4EFB294B3CC5005AE833 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EFA294B3CC5005AE833 /* MapViewController.swift */; };
 		171A4EFF294B6B78005AE833 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EFE294B6B78005AE833 /* ForecastData.swift */; };
 		171A4F02294B7B16005AE833 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4F01294B7B16005AE833 /* NetworkRequest.swift */; };
@@ -52,10 +49,7 @@
 		171A4ED42949FABE005AE833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171A4ED62949FABE005AE833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171A4EDB2949FABE005AE833 /* CurrentWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrentWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		171A4EDF2949FABE005AE833 /* CurrentWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAppTests.swift; sourceTree = "<group>"; };
 		171A4EE52949FABE005AE833 /* CurrentWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrentWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		171A4EE92949FABE005AE833 /* CurrentWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAppUITests.swift; sourceTree = "<group>"; };
-		171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		171A4EFA294B3CC5005AE833 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		171A4EFE294B6B78005AE833 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 		171A4F01294B7B16005AE833 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
@@ -94,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				171A4EC72949FABB005AE833 /* CurrentWeatherApp */,
-				171A4EDE2949FABE005AE833 /* CurrentWeatherAppTests */,
-				171A4EE82949FABE005AE833 /* CurrentWeatherAppUITests */,
 				171A4EC62949FABB005AE833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,23 +115,6 @@
 				171A4EFD294B6B47005AE833 /* Model */,
 			);
 			path = CurrentWeatherApp;
-			sourceTree = "<group>";
-		};
-		171A4EDE2949FABE005AE833 /* CurrentWeatherAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				171A4EDF2949FABE005AE833 /* CurrentWeatherAppTests.swift */,
-			);
-			path = CurrentWeatherAppTests;
-			sourceTree = "<group>";
-		};
-		171A4EE82949FABE005AE833 /* CurrentWeatherAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				171A4EE92949FABE005AE833 /* CurrentWeatherAppUITests.swift */,
-				171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */,
-			);
-			path = CurrentWeatherAppUITests;
 			sourceTree = "<group>";
 		};
 		171A4EFC294B3CCA005AE833 /* View */ = {
@@ -320,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171A4EE02949FABE005AE833 /* CurrentWeatherAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,8 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171A4EEA2949FABE005AE833 /* CurrentWeatherAppUITests.swift in Sources */,
-				171A4EEC2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,11 +464,11 @@
 				DEVELOPMENT_TEAM = QFN7P6T3H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CurrentWeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location identifier will be used to home tracking with hardware";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,11 +493,11 @@
 				DEVELOPMENT_TEAM = QFN7P6T3H7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CurrentWeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needs location identifier will be used to home tracking with hardware";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
