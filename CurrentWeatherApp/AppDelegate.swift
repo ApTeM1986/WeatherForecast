@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  CurrentWeatherApp
-//
-//  Created by Artem Stetsenko on 14.12.2022.
-//
-
 import UIKit
 
 @main

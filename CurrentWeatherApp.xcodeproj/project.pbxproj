@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		171A4EC92949FABB005AE833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EC82949FABB005AE833 /* AppDelegate.swift */; };
 		171A4ECB2949FABB005AE833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4ECA2949FABB005AE833 /* SceneDelegate.swift */; };
-		171A4ECD2949FABB005AE833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4ECC2949FABB005AE833 /* ViewController.swift */; };
+		171A4ECD2949FABB005AE833 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4ECC2949FABB005AE833 /* MainViewController.swift */; };
 		171A4ED02949FABB005AE833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ECE2949FABB005AE833 /* Main.storyboard */; };
 		171A4ED22949FABE005AE833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ED12949FABE005AE833 /* Assets.xcassets */; };
 		171A4ED52949FABE005AE833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171A4ED32949FABE005AE833 /* LaunchScreen.storyboard */; };
 		171A4EE02949FABE005AE833 /* CurrentWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EDF2949FABE005AE833 /* CurrentWeatherAppTests.swift */; };
 		171A4EEA2949FABE005AE833 /* CurrentWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EE92949FABE005AE833 /* CurrentWeatherAppUITests.swift */; };
 		171A4EEC2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */; };
+		171A4EFB294B3CC5005AE833 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EFA294B3CC5005AE833 /* MapViewController.swift */; };
+		171A4EFF294B6B78005AE833 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4EFE294B6B78005AE833 /* ForecastData.swift */; };
+		171A4F02294B7B16005AE833 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171A4F01294B7B16005AE833 /* NetworkRequest.swift */; };
+		172D9F4D294CC0EC00B45BD6 /* DailyTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D9F4B294CC0EC00B45BD6 /* DailyTableVCell.swift */; };
+		172D9F4E294CC0EC00B45BD6 /* DailyTableVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172D9F4C294CC0EC00B45BD6 /* DailyTableVCell.xib */; };
+		172D9F55294CC92F00B45BD6 /* HourCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D9F53294CC92F00B45BD6 /* HourCollectionVCell.swift */; };
+		172D9F56294CC92F00B45BD6 /* HourCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172D9F54294CC92F00B45BD6 /* HourCollectionVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,7 @@
 		171A4EC52949FABB005AE833 /* CurrentWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrentWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171A4EC82949FABB005AE833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		171A4ECA2949FABB005AE833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		171A4ECC2949FABB005AE833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		171A4ECC2949FABB005AE833 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		171A4ECF2949FABB005AE833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171A4ED12949FABE005AE833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171A4ED42949FABE005AE833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		171A4EE52949FABE005AE833 /* CurrentWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrentWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		171A4EE92949FABE005AE833 /* CurrentWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAppUITests.swift; sourceTree = "<group>"; };
 		171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		171A4EFA294B3CC5005AE833 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		171A4EFE294B6B78005AE833 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
+		171A4F01294B7B16005AE833 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		172D9F4B294CC0EC00B45BD6 /* DailyTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableVCell.swift; sourceTree = "<group>"; };
+		172D9F4C294CC0EC00B45BD6 /* DailyTableVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyTableVCell.xib; sourceTree = "<group>"; };
+		172D9F53294CC92F00B45BD6 /* HourCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourCollectionVCell.swift; sourceTree = "<group>"; };
+		172D9F54294CC92F00B45BD6 /* HourCollectionVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourCollectionVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +115,12 @@
 			children = (
 				171A4EC82949FABB005AE833 /* AppDelegate.swift */,
 				171A4ECA2949FABB005AE833 /* SceneDelegate.swift */,
-				171A4ECC2949FABB005AE833 /* ViewController.swift */,
+				171A4EFC294B3CCA005AE833 /* View */,
 				171A4ECE2949FABB005AE833 /* Main.storyboard */,
 				171A4ED12949FABE005AE833 /* Assets.xcassets */,
 				171A4ED32949FABE005AE833 /* LaunchScreen.storyboard */,
 				171A4ED62949FABE005AE833 /* Info.plist */,
+				171A4EFD294B6B47005AE833 /* Model */,
 			);
 			path = CurrentWeatherApp;
 			sourceTree = "<group>";
@@ -125,6 +140,36 @@
 				171A4EEB2949FABE005AE833 /* CurrentWeatherAppUITestsLaunchTests.swift */,
 			);
 			path = CurrentWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		171A4EFC294B3CCA005AE833 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				171A4EFA294B3CC5005AE833 /* MapViewController.swift */,
+				171A4ECC2949FABB005AE833 /* MainViewController.swift */,
+				172D9F50294CC0FE00B45BD6 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		171A4EFD294B6B47005AE833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				171A4F01294B7B16005AE833 /* NetworkRequest.swift */,
+				171A4EFE294B6B78005AE833 /* ForecastData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		172D9F50294CC0FE00B45BD6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				172D9F4B294CC0EC00B45BD6 /* DailyTableVCell.swift */,
+				172D9F4C294CC0EC00B45BD6 /* DailyTableVCell.xib */,
+				172D9F53294CC92F00B45BD6 /* HourCollectionVCell.swift */,
+				172D9F54294CC92F00B45BD6 /* HourCollectionVCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				171A4ED52949FABE005AE833 /* LaunchScreen.storyboard in Resources */,
+				172D9F4E294CC0EC00B45BD6 /* DailyTableVCell.xib in Resources */,
+				172D9F56294CC92F00B45BD6 /* HourCollectionVCell.xib in Resources */,
 				171A4ED22949FABE005AE833 /* Assets.xcassets in Resources */,
 				171A4ED02949FABB005AE833 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171A4ECD2949FABB005AE833 /* ViewController.swift in Sources */,
+				171A4F02294B7B16005AE833 /* NetworkRequest.swift in Sources */,
+				171A4ECD2949FABB005AE833 /* MainViewController.swift in Sources */,
+				172D9F55294CC92F00B45BD6 /* HourCollectionVCell.swift in Sources */,
 				171A4EC92949FABB005AE833 /* AppDelegate.swift in Sources */,
+				171A4EFF294B6B78005AE833 /* ForecastData.swift in Sources */,
+				172D9F4D294CC0EC00B45BD6 /* DailyTableVCell.swift in Sources */,
 				171A4ECB2949FABB005AE833 /* SceneDelegate.swift in Sources */,
+				171A4EFB294B3CC5005AE833 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +497,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +526,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
